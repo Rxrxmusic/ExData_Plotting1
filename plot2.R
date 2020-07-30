@@ -14,5 +14,5 @@ with(subdata, {
        ylab='Global Active Power (kilowatts)', xlab='')
 })
 
-png('plot1.png', width=480, height=480)
+dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()
